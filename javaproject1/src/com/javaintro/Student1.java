@@ -7,10 +7,11 @@ public class Student1 {
 	String studentName;
 	int studentId;
 	void news() {
-		System.out.println(collegeName);
-		System.out.println(collegeLocation);
-		System.out.println(studentName);
-		System.out.println(studentId);
+		System.out.println("College Name :"+collegeName);
+		System.out.println("College Location :"+collegeLocation);
+		System.out.println("studentName :"+studentName);
+		System.out.println("studentId :"+studentId);
+		System.out.println();
 	}
 	public static void main(String[] args) {
 		Student1 s= new Student1();

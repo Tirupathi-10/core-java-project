@@ -24,6 +24,7 @@ public class Student {
 		System.out.println("Student sname: "+ s1.sname);
 		System.out.println("Student Address: "+ s1.add);
 		System.out.println("Student Age: "+ s1.age);
+		System.out.println();
 		
 		Student s2 = new Student();
 		
@@ -38,6 +39,7 @@ public class Student {
 		System.out.println("Student sname: "+ s2.sname);
 		System.out.println("Student Address: "+ s2.add);
 		System.out.println("Student Age: "+ s2.age);
+		System.out.println();
 	}
 
 }
