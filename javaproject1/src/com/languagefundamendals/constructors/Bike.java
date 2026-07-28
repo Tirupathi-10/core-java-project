@@ -31,7 +31,7 @@ public class Bike {
 	    this.year = m.year;
 	}
 	public static void main(String[] args) {
-		Bike b=new Bike();
+		Bike b=new Bike("Honda","bs-4",120000,"2024");
 		b.show();
 		Bike b1=new Bike(b);
 		b1.show();
