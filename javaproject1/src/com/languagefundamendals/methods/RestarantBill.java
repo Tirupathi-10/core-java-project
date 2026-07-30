@@ -7,14 +7,14 @@ public class RestarantBill {
 	String foodItem() {
 		return "Biryani";
 	}
-	int quantiyt() {
+	int quantity() {
 		return 9;
 	}
 	double amount() {
-		return quantiyt()*300;
+		return quantity()*300;
 	}
 	double gst() {
-		return amount()*50/100;
+		return amount()*0.18;
 	}
 	double total() {
 		return amount()+gst();
@@ -32,7 +32,7 @@ public class RestarantBill {
 		return price;
 	}
 	double amount(double quan,double price) {
-		return quantiyt()*price(price);
+		return quan * price;
 	}
 	
 
@@ -41,7 +41,7 @@ public class RestarantBill {
 		
 		System.out.println("Customer Name: "+b.customerName());
 		System.out.println("Food item Name: "+b.foodItem() );
-		System.out.println("Quantity: "+b.quantiyt());
+		System.out.println("Quantity: "+b.quantity());
 		System.out.println("Amount: "+b.amount());
 		System.out.println("gst: "+b.gst());
 		System.out.println("Total Amount: "+b.total());

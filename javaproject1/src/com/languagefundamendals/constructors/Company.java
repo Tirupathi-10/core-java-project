@@ -14,9 +14,9 @@ public class Company {
 		this.loc=loc;
 	}
 	public static void main(String[] args) {
-		Employe e1=new Employe("Infosys",123,"Vizag","Tiru",12);
+		Employee e1=new Employee("Infosys",123,"Vizag","Tiru",12);
 		e1.display();
-		Employe e2= new Employe("tcs",345,"hyd","Sai",23);
+		Employee e2= new Employee("tcs",345,"hyd","Sai",23);
 		e2.display();
 		
 	}
@@ -26,10 +26,11 @@ public class Company {
 		System.out.println("Location of the Company:"+loc);
 	}
 }
-class Employe extends Company {
+
+class Employee extends Company {
 	String ename;
 	int eid;
-	Employe(String name,int id,String loc,String ename,int eid){
+	Employee(String name,int id,String loc,String ename,int eid){
 		super(name,id,loc);
 		this.ename=ename;
 		this.eid=eid;
@@ -42,4 +43,3 @@ class Employe extends Company {
 	}
 }
 	
-
