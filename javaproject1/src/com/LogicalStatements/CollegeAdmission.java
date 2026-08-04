@@ -45,25 +45,25 @@ public class CollegeAdmission {
 									System.out.println("Status      : Admission Confirmed");
 									System.out.println("========================================");
 								} else {
-									System.out.println(" Please Pay the Admission Fee.");
+									System.out.println("Please Pay the Admission Fee.");
 								}
 							} else {
-								System.out.println(" No Seat Available.");
+								System.out.println("No Seat Available.");
 							}
 						} else {
-							System.out.println(" Admission Rejected: Minimum 70% Required.");
+							System.out.println("Admission Rejected: Minimum 70% Required.");
 						}
 					} else {
-						System.out.println(" Entrance Test Not Qualified.");
+						System.out.println("Entrance Test Not Qualified.");
 					}
 				} else {
-					System.out.println(" 12th Certificates Not Verified.");
+					System.out.println("12th Certificates Not Verified.");
 				}
 			} else {
-				System.out.println(" 10th Certificates Not Verified.");
+				System.out.println("10th Certificates Not Verified.");
 			}
 		} else {
-			System.out.println(" Application Not Submitted.");
+			System.out.println("Application Not Submitted.");
 		}
 
 	}
