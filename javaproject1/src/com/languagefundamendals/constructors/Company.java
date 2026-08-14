@@ -4,9 +4,6 @@ public class Company {
 	String name;
 	int id;
 	String loc;
-	Company(){
-		System.out.println("no- constructor called!!");
-	}
 	
 	Company(String name,int id,String loc){
 		this .name=name;

@@ -14,9 +14,9 @@ public class PrimeorNot {
 		} else {
 			System.out.println("Given Number is Not Prime Number");
 		}
-		for(int i=1;i<=n;i++) {
-			if(isPrime(i)) {
-				System.out.println(i+" ");
+		for (int i = 1; i <= n; i++) {
+			if (isPrime(i)) {
+				System.out.println(i + " ");
 			}
 		}
 	}

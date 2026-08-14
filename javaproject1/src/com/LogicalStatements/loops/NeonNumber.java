@@ -12,8 +12,8 @@ public class NeonNumber {
 		int n=num*num;
 		int sum=0;
 		 for(;n>0;) {
-			  int d=n%10;
-			 sum=sum+d;
+			  int rem=n%10;
+			 sum=sum+rem;
 			 n=n/10;
 		 }
 		 if(num==sum) {
