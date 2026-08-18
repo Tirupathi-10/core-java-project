@@ -10,7 +10,6 @@ public class Avg {
 		int size = sc.nextInt();
 		double[] marks = new double[size];
 		double total_marks = 0;
-		
 
 		for (int i = 0; i < marks.length; i++) {
 			System.out.println("Enter the Marks:");
@@ -20,7 +19,7 @@ public class Avg {
 		for (double mark : marks) {
 			total_marks = total_marks + mark;
 		}
-		 double avg = total_marks / marks.length;
+		double avg = total_marks / marks.length;
 		System.out.println(total_marks);
 		System.out.println(avg);
 	}
