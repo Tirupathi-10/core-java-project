@@ -8,20 +8,19 @@ public class Avg {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Size");
 		int size = sc.nextInt();
-		double[] marks = new double[size];
-		double total_marks = 0;
-
-		for (int i = 0; i < marks.length; i++) {
-			System.out.println("Enter the Marks:");
-			marks[i] = sc.nextDouble();
+		int[] num = new int[size];
+		int sum = 0;
+		System.out.println("Enter the Elements: ");
+		for (int i = 0; i < num.length; i++) {
+			num[i] = sc.nextInt();
 		}
-
-		for (double mark : marks) {
-			total_marks = total_marks + mark;
+		for (int i = 0; i < num.length; i++) {
+			sum = sum + num[i];
 		}
-		double avg = total_marks / marks.length;
-		System.out.println(total_marks);
-		System.out.println(avg);
+		System.out.println("Sum of Elements:" + sum);
+//		double avg = sum / num.length;
+//		System.out.println("Average: " + avg);
+
 	}
 
 }
