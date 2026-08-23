@@ -12,7 +12,7 @@ public class FandLDigits {
 		System.out.println("First Digit Of a Given Number is: " + first);
 		int last = lastDigit(n);
 		System.out.println("Last Digit of a Given Number is: " + last);
-		int sum=last+first;
+		int sum = last + first;
 		System.out.println(sum);
 	}
 
@@ -21,12 +21,12 @@ public class FandLDigits {
 		while (n >= 10) {
 			n = n / 10;
 		}
-		return n;
+		return n; 
 	}
 
 	int lastDigit(int n) {
 		int last = 0;
-			n = n % 10;
+		n = n % 10;
 		return n;
 	}
 
