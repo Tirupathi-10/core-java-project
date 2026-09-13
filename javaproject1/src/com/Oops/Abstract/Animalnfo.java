@@ -10,12 +10,14 @@ public class Animalnfo {
 		d.sound();
 		d.eat();
 		d.walk();
+		Animal.sleep();
 		System.out.println();
 		System.out.println("-------Cat Info------");
 		Animal c = new Cat();
 		c.sound();
 		c.eat();
 		c.walk();
+		Animal.sleep();
 	}
 
 }
